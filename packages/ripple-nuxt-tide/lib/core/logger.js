@@ -3,7 +3,7 @@ const dgram = require('dgram')
 const os = require('os')
 
 class LogstashTransport extends Transport {
-  constructor(options) {
+  constructor (options) {
     options = options || {}
     super(options)
     this.name = 'LogstashTransport'
@@ -16,12 +16,12 @@ class LogstashTransport extends Transport {
     this.connect()
   }
 
-  connect() {
+  connect () {
     this.client = dgram.createSocket('udp4')
     this.client.unref()
   }
 
-  log(info, callback) {
+  log (info, callback) {
     if (this.silent) {
       return callback(null, true)
     }
@@ -32,7 +32,7 @@ class LogstashTransport extends Transport {
     })
   }
 
-  send(message, callback) {
+  send (message, callback) {
     if (this.trailingLineFeed === true) {
       message = message.replace(/\s+$/, '') + this.trailingLineFeedChar
     }
