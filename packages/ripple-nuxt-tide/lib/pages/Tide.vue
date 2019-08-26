@@ -210,6 +210,8 @@ export default {
   async asyncData (context) {
     const pageData = await context.app.$tide.callMiddleware(context)
 
+    console.log(pageData)
+
     return {
       errorType: pageData.tideErrorType,
       page: pageData.tidePage,

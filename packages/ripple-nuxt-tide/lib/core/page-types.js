@@ -6,6 +6,7 @@ export const getTemplate = (type, pageTypes = []) => {
 
   if (pageTypes.length > 0) {
     pageTypes.forEach(path => {
+      console.log(path)
       try {
         let morePageTypes
         // Narrow the required pattern as Webpack will load all possible files based on dynamic require.
@@ -28,5 +29,6 @@ export const getTemplate = (type, pageTypes = []) => {
       }
     })
   }
+  console.log('--------->', templates)
   return templates[type]
 }

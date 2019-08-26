@@ -1,5 +1,3 @@
-export default {
-  pageTemplates: {
-    'node--landing_page': () => import('./pages/index.vue')
-  }
-}
+const pt = require('@other-user/landing-page/tide.page-types').default
+
+export default pt
