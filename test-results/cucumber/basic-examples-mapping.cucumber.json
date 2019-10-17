@@ -1,0 +1,103 @@
+[
+  {
+    "description": "  Custom mapping should work",
+    "keyword": "Feature",
+    "name": "Custom mapping",
+    "line": 1,
+    "id": "custom-mapping",
+    "tags": [],
+    "uri": "mapping.feature",
+    "elements": [
+      {
+        "id": "custom-mapping;example-for-overriding-mapping-with-custom-filter",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Example for overriding mapping with custom filter",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I visit the page \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 5119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the example filter is applied",
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "custom-mapping;example-for-adding-async-filter",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Example for adding async filter",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I visit the page \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 2667000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the example async filter is applied",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "custom-mapping;example-for-overriding-core-filter",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Example for overriding core filter",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I visit the page \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 2660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the core filter is overrode",
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

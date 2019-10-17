@@ -1,0 +1,133 @@
+[
+  {
+    "description": "  As a Citizen I can explore results on the site for a given tag/topic so that I can navigate to the related content I want to read",
+    "keyword": "Feature",
+    "name": "Topics and Tags Search Page",
+    "line": 1,
+    "id": "topics-and-tags-search-page",
+    "tags": [],
+    "uri": "topic-tags-search.feature",
+    "elements": [
+      {
+        "id": "topics-and-tags-search-page;view-tag-search-results",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "View tag search results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I visit the page \"/tags/aboriginal-victorians\"",
+            "result": {
+              "status": "passed",
+              "duration": 12671000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the page title should be \"Tags - Aboriginal Victorians\"",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the h1 should be \"Aboriginal Victorians\"",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the search results component should exist",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the content rating component should exist",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "topics-and-tags-search-page;view-topic-search-results",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "View topic search results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I visit the page \"/topic/arts-culture-and-heritage\"",
+            "result": {
+              "status": "passed",
+              "duration": 16171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the page title should be \"Topic - Arts, culture and heritage\"",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the h1 should be \"Arts, culture and heritage\"",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the search results component should exist",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the content rating component should exist",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,179 @@
+[
+  {
+    "description": "  As a citizen I need to be alerted to important site wide notifications.",
+    "keyword": "Feature",
+    "name": "Global Notifications (Alert)",
+    "line": 1,
+    "id": "global-notifications-(alert)",
+    "tags": [],
+    "uri": "alert.feature",
+    "elements": [
+      {
+        "id": "global-notifications-(alert);1-fe-alert-1-displays-global-alert",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "1-FE-Alert-1 Displays global alert",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I have created a node with the YAML fixture \"alert/1-BE-Alert-1\"",
+            "result": {
+              "status": "passed",
+              "duration": 7961000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I visit the page \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 2588000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "type",
+                      "link",
+                      "linkText"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1-BE-Alert-1 Demo Alert",
+                      "Demo Alert Type",
+                      "https://vic.gov.au",
+                      "More  details"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "there should be the following global notifications:",
+            "result": {
+              "status": "passed",
+              "duration": 316000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "global-notifications-(alert);1-fe-alert-2-displays-site-section-alert",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "1-FE-Alert-2 Displays site section alert",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I visit the page \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 1920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "I have created a node with the YAML fixture \"alert/1-BE-Alert-3\"",
+            "result": {
+              "status": "passed",
+              "duration": 7373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I wait for 61 seconds",
+            "result": {
+              "status": "passed",
+              "duration": 61107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I visit the page \"/demo-landing-page\"",
+            "result": {
+              "status": "passed",
+              "duration": 12420000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should see 2 global notification",
+            "result": {
+              "status": "failed",
+              "duration": 4144000000,
+              "error_message": "CypressError: Timed out retrying: Too many elements found. Found '4', expected '2'.\n    at Object.cypressErr (http://localhost:3000/__cypress/runner/cypress_runner.js:85348:11)\n    at Object.throwErr (http://localhost:3000/__cypress/runner/cypress_runner.js:85303:18)\n    at Object.throwErrByPath (http://localhost:3000/__cypress/runner/cypress_runner.js:85335:17)\n    at retry (http://localhost:3000/__cypress/runner/cypress_runner.js:77321:16)\n    at onFailFn (http://localhost:3000/__cypress/runner/cypress_runner.js:68422:16)\nFrom previous event:\n    at Object.verifyUpcomingAssertions (http://localhost:3000/__cypress/runner/cypress_runner.js:68569:13)\n    at http://localhost:3000/__cypress/runner/cypress_runner.js:74353:21\nFrom previous event:\n    at resolveElements (http://localhost:3000/__cypress/runner/cypress_runner.js:74349:41)\n    at tryFn (http://localhost:3000/__cypress/runner/cypress_runner.js:77770:21)\n    at whenStable (http://localhost:3000/__cypress/runner/cypress_runner.js:77805:12)\n    at http://localhost:3000/__cypress/runner/cypress_runner.js:77364:16"
+            },
+            "embeddings": [
+              {
+                "data": "VGltZWQgb3V0IHJldHJ5aW5nOiBUb28gbWFueSBlbGVtZW50cyBmb3VuZC4gRm91bmQgJzQnLCBleHBlY3RlZCAnMicu",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "type",
+                      "link",
+                      "linkText"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1-BE-Alert-1 Demo Alert",
+                      "Demo Alert Type",
+                      "https://vic.gov.au",
+                      "More  details"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1-BE-Alert-3 Demo Alert",
+                      "Flood",
+                      "https://vic.gov.au",
+                      "More  details"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 39,
+            "name": "there should be the following global notifications:",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

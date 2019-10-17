@@ -1,0 +1,118 @@
+[
+  {
+    "description": "  Integration test to make sure that the tide backend is returning the correct API endpoints",
+    "keyword": "Feature",
+    "name": "Test Tide backend is up",
+    "line": 1,
+    "id": "test-tide-backend-is-up",
+    "tags": [],
+    "uri": "tide-is-up.feature",
+    "elements": [
+      {
+        "id": "test-tide-backend-is-up;route-endpoint-returns-a-correct-response",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Route endpoint returns a correct response",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a request is made to \"/api/v1/route?site=4&path=/\"",
+            "result": {
+              "status": "passed",
+              "duration": 520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the response code should be 200",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-tide-backend-is-up;sites-endpoint-returns-a-correct-response",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Sites endpoint returns a correct response",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "a request is made to \"/api/v1/taxonomy_term/sites?site=4\"",
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the response code should be 200",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-tide-backend-is-up;alert-endpoint-returns-a-correct-response",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Alert endpoint returns a correct response",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "a request is made to \"/api/v1/node/alert?site=4&include=field_alert_type\"",
+            "result": {
+              "status": "passed",
+              "duration": 1137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the response code should be 200",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "description": "  Custom theme is getting loaded",
+    "keyword": "Feature",
+    "name": "Custom theme should work",
+    "line": 1,
+    "id": "custom-theme-should-work",
+    "tags": [],
+    "uri": "ripple.feature",
+    "elements": [
+      {
+        "id": "custom-theme-should-work;use-some-ripple-example-components",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Use some Ripple example components",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I visit the Vue router path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 980000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the example ripple components should exist",
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

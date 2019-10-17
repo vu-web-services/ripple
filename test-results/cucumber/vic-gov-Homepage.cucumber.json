@@ -1,0 +1,98 @@
+[
+  {
+    "description": "   Home landing page ",
+    "keyword": "Feature",
+    "name": "Home Page",
+    "line": 1,
+    "id": "home-page",
+    "tags": [],
+    "uri": "Homepage.feature",
+    "elements": [
+      {
+        "id": "home-page;home-landing-page-loads-correctly",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Home landing page loads correctly",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I visit the page \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 12933000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the page title should be set",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the h1 should be set",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the breadcrumbs should not exist",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the site header is visible",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the site footer is visible",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the campaign primary banner component should exist",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

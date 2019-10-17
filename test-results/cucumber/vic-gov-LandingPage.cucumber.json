@@ -1,0 +1,1201 @@
+[
+  {
+    "description": "  As a citizen I can view information for all available content on any given landing page",
+    "keyword": "Feature",
+    "name": "Landing page",
+    "line": 1,
+    "id": "landing-page",
+    "tags": [],
+    "uri": "LandingPage.feature",
+    "elements": [
+      {
+        "id": "landing-page;5-fe-land-6-landing-page---complete-test",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "5-FE-land-6 Landing Page - Complete Test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the \"/5-be-land-3-landing-page-complete-test\" page exists with fixture \"landingPage/5-be-land-3-landing-page-complete-test\" data",
+            "result": {
+              "status": "passed",
+              "duration": 470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I visit the page \"/5-be-land-3-landing-page-complete-test\"",
+            "result": {
+              "status": "passed",
+              "duration": 21702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the page title should be \"5-BE-land-3 Landing Page - Complete Test\"",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the hero banner desciption should be \"5-BE-land-3  Landing Page - Complete Test Intro\"",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the campaign primary banner component should exist",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "body",
+                      "ctatext",
+                      "ctalink"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Demo Campaign",
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vobis voluptatum perceptarum recordatio vitam beatam facit",
+                      "Find out more",
+                      "https://www.vic.gov.au"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the campaign primary banner should contain:",
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the campaign secondary component should exist",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "body",
+                      "ctatext",
+                      "ctalink"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Another Demo Campaign",
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vobis voluptatum perceptarum recordatio vitam beatam facit",
+                      "Find out more",
+                      "https://www.vic.gov.au"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the campaign secondary component should contain:",
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the order number 1 wysiwyg content matches fixture \"landingPage/5-be-land-3-landing-page-complete-test\"",
+            "result": {
+              "status": "failed",
+              "duration": 635000000,
+              "error_message": "AssertionError: expected '<div.rpl-markup.tide-wysiwyg.app-wysiwyg>' to have HTML '<div class=\"rpl-markup__inner\"><p>And in the sky the clouds were twisting and darkness flowed through all the cracks into the sinking vessel of the landscape. Only in the telegraph wires a message still crackled.</p> <figure class=\"rpl-document-link\"><a aria-label=\"RAP Area Map for Barengi Gadjin Land Council File type: pdf. Size: 2.84 MB\" href=\"/sites/default/files/2018-10/Barengi%20Gadjin-wv-26OCT17.pdf\" download=\"\" class=\"rpl-document-link__link\"><svg aria-hidden=\"true\" class=\"rpl-document-link__icon rpl-icon rpl-icon--pdf rpl-icon--color_primary\" style=\"width:30px;height:30px;\"><use xlink:href=\"#rpl_icon_pdf\" href=\"#rpl_icon_pdf\"></use></svg> <div class=\"rpl-document-link__info\"><span class=\"rpl-document-link__title\">RAP Area Map for Barengi Gadjin Land Council</span> <div class=\"rpl-document-link__meta\"><span class=\"rpl-document-link__type\">pdf</span> <span class=\"rpl-document-link__size rpl-document-link__size--seperator\">2.84 MB</span></div></div></a> <figcaption class=\"rpl-document-link__caption\">caption</figcaption></figure> <figure role=\"group\" class=\"caption caption-div embedded-entity embedded-entity--media embedded-entity--media--image\"><div data-embed-button=\"tide_media\" data-entity-embed-display=\"view_mode:media.embedded\" data-entity-type=\"media\" data-entity-uuid=\"9dd62eae-39e2-40f7-b2a6-f84421041f83\" data-langcode=\"en\"><article class=\"media media--type-image media--view-mode-embedded\"><div class=\"field field--name-field-media-image field--type-image field--label-hidden field__item\"><img alt=\" Judy Tegart-Dalton AM - 2019 Victorian Honour Roll of Women inductee\" height=\"150\" src=\"https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-03/womens-honour-roll-2019-Judy-Tegart-Dalton.png\" title=\" Judy Tegart-Dalton AM - 2019 Victorian Honour Roll of Women inductee\" width=\"150\"></div></article></div> <figcaption>caption</figcaption></figure> <blockquote><p>&nbsp;When I have seen by Time\\'s fell hand defac\\'d The rich proud cost of outworn buried age; When sometime lofty towers I see down-ras\\'d And brass eternal slave to mortal rage;</p></blockquote> <p>When I have seen the hungry ocean gain Advantage on the kingdom of the shore, And the firm soil win of the wat\\'ry main, Increasing store with loss and loss with store; When I have seen such interchange of state, Or state itself confounded to decay; Ruin hath taught me thus to ruminate, That Time will come and take my love away. This thought is as a death, which cannot choose But weep to have that which it fears to lose.</p> <p></p><div class=\"rpl-markup__iframe-container\"><iframe frameborder=\"0\" height=\"600\" scrolling=\"no\" src=\"https://mazzanet.net.au/cfa/?magickey=cfamonitor&amp;reg=13\" width=\"600\"></iframe></div><p></p></div>', but the HTML was '<div class=\"rpl-markup__inner\"><p>And in the sky the clouds were twisting and darkness flowed through all the cracks into the sinking vessel of the landscape. Only in the telegraph wires a message still crackled.</p> <figure class=\"rpl-document-link\"><a aria-label=\"RAP Area Map for Barengi Gadjin Land Council File type: pdf. Size: 2.84 MB\" href=\"/sites/default/files/2018-10/Barengi%20Gadjin-wv-26OCT17.pdf\" download=\"\" class=\"rpl-document-link__link\"><svg aria-hidden=\"true\" class=\"rpl-document-link__icon rpl-icon rpl-icon--pdf rpl-icon--color_primary\" style=\"width:30px;height:30px;\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#rpl_icon_pdf\" href=\"#rpl_icon_pdf\"></use></svg> <div class=\"rpl-document-link__info\"><span class=\"rpl-document-link__title\">RAP Area Map for Barengi Gadjin Land Council</span> <div class=\"rpl-document-link__meta\"><span class=\"rpl-document-link__type\">pdf</span> <span class=\"rpl-document-link__size rpl-document-link__size--seperator\">2.84 MB</span></div></div></a> <figcaption class=\"rpl-document-link__caption\">caption</figcaption></figure> <figure role=\"group\" class=\"caption caption-div embedded-entity embedded-entity--media embedded-entity--media--image\"><div data-embed-button=\"tide_media\" data-entity-embed-display=\"view_mode:media.embedded\" data-entity-type=\"media\" data-entity-uuid=\"9dd62eae-39e2-40f7-b2a6-f84421041f83\" data-langcode=\"en\"><article class=\"media media--type-image media--view-mode-embedded\"><div class=\"field field--name-field-media-image field--type-image field--label-hidden field__item\"><img alt=\" Judy Tegart-Dalton AM - 2019 Victorian Honour Roll of Women inductee\" height=\"150\" src=\"https://www.develop.content.vic.gov.au/sites/default/files/2019-03/womens-honour-roll-2019-Judy-Tegart-Dalton.png\" title=\" Judy Tegart-Dalton AM - 2019 Victorian Honour Roll of Women inductee\" width=\"150\"></div></article></div> <figcaption>caption</figcaption></figure> <blockquote><p>&nbsp;When I have seen by Time\\'s fell hand defac\\'d The rich proud cost of outworn buried age; When sometime lofty towers I see down-ras\\'d And brass eternal slave to mortal rage;</p></blockquote> <p>When I have seen the hungry ocean gain Advantage on the kingdom of the shore, And the firm soil win of the wat\\'ry main, Increasing store with loss and loss with store; When I have seen such interchange of state, Or state itself confounded to decay; Ruin hath taught me thus to ruminate, That Time will come and take my love away. This thought is as a death, which cannot choose But weep to have that which it fears to lose.</p> <p></p><div class=\"rpl-markup__iframe-container\"><iframe frameborder=\"0\" height=\"600\" scrolling=\"no\" src=\"https://mazzanet.net.au/cfa/?magickey=cfamonitor&amp;reg=13\" width=\"600\"></iframe></div><p></p></div>'\n    at getRet (http://localhost:3000/__cypress/runner/cypress_runner.js:71895:16)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:118962:23)\n    at Function.Promise.attempt.Promise.try (http://localhost:3000/__cypress/runner/cypress_runner.js:116237:29)\n    at Context.thenFn (http://localhost:3000/__cypress/runner/cypress_runner.js:71909:23)\n    at Context.then (http://localhost:3000/__cypress/runner/cypress_runner.js:72229:21)\n    at Context.<anonymous> (http://localhost:3000/__cypress/runner/cypress_runner.js:80256:21)\n    at http://localhost:3000/__cypress/runner/cypress_runner.js:79783:33\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:118962:23)\n    at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:116898:31)\n    at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:116955:18)\n    at Promise._settlePromiseCtx (http://localhost:3000/__cypress/runner/cypress_runner.js:116992:10)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:113692:12)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:113697:10)\n    at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:113571:14)\n    at <anonymous>"
+            },
+            "embeddings": [
+              {
+                "data": "ZXhwZWN0ZWQgJzxkaXYucnBsLW1hcmt1cC50aWRlLXd5c2l3eWcuYXBwLXd5c2l3eWc+JyB0byBoYXZlIEhUTUwgJzxkaXYgY2xhc3M9InJwbC1tYXJrdXBfX2lubmVyIj48cD5BbmQgaW4gdGhlIHNreSB0aGUgY2xvdWRzIHdlcmUgdHdpc3RpbmcgYW5kIGRhcmtuZXNzIGZsb3dlZCB0aHJvdWdoIGFsbCB0aGUgY3JhY2tzIGludG8gdGhlIHNpbmtpbmcgdmVzc2VsIG9mIHRoZSBsYW5kc2NhcGUuIE9ubHkgaW4gdGhlIHRlbGVncmFwaCB3aXJlcyBhIG1lc3NhZ2Ugc3RpbGwgY3JhY2tsZWQuPC9wPiA8ZmlndXJlIGNsYXNzPSJycGwtZG9jdW1lbnQtbGluayI+PGEgYXJpYS1sYWJlbD0iUkFQIEFyZWEgTWFwIGZvciBCYXJlbmdpIEdhZGppbiBMYW5kIENvdW5jaWwgRmlsZSB0eXBlOiBwZGYuIFNpemU6IDIuODQgTUIiIGhyZWY9Ii9zaXRlcy9kZWZhdWx0L2ZpbGVzLzIwMTgtMTAvQmFyZW5naSUyMEdhZGppbi13di0yNk9DVDE3LnBkZiIgZG93bmxvYWQ9IiIgY2xhc3M9InJwbC1kb2N1bWVudC1saW5rX19saW5rIj48c3ZnIGFyaWEtaGlkZGVuPSJ0cnVlIiBjbGFzcz0icnBsLWRvY3VtZW50LWxpbmtfX2ljb24gcnBsLWljb24gcnBsLWljb24tLXBkZiBycGwtaWNvbi0tY29sb3JfcHJpbWFyeSIgc3R5bGU9IndpZHRoOjMwcHg7aGVpZ2h0OjMwcHg7Ij48dXNlIHhsaW5rOmhyZWY9IiNycGxfaWNvbl9wZGYiIGhyZWY9IiNycGxfaWNvbl9wZGYiPjwvdXNlPjwvc3ZnPiA8ZGl2IGNsYXNzPSJycGwtZG9jdW1lbnQtbGlua19faW5mbyI+PHNwYW4gY2xhc3M9InJwbC1kb2N1bWVudC1saW5rX190aXRsZSI+UkFQIEFyZWEgTWFwIGZvciBCYXJlbmdpIEdhZGppbiBMYW5kIENvdW5jaWw8L3NwYW4+IDxkaXYgY2xhc3M9InJwbC1kb2N1bWVudC1saW5rX19tZXRhIj48c3BhbiBjbGFzcz0icnBsLWRvY3VtZW50LWxpbmtfX3R5cGUiPnBkZjwvc3Bhbj4gPHNwYW4gY2xhc3M9InJwbC1kb2N1bWVudC1saW5rX19zaXplIHJwbC1kb2N1bWVudC1saW5rX19zaXplLS1zZXBlcmF0b3IiPjIuODQgTUI8L3NwYW4+PC9kaXY+PC9kaXY+PC9hPiA8ZmlnY2FwdGlvbiBjbGFzcz0icnBsLWRvY3VtZW50LWxpbmtfX2NhcHRpb24iPmNhcHRpb248L2ZpZ2NhcHRpb24+PC9maWd1cmU+IDxmaWd1cmUgcm9sZT0iZ3JvdXAiIGNsYXNzPSJjYXB0aW9uIGNhcHRpb24tZGl2IGVtYmVkZGVkLWVudGl0eSBlbWJlZGRlZC1lbnRpdHktLW1lZGlhIGVtYmVkZGVkLWVudGl0eS0tbWVkaWEtLWltYWdlIj48ZGl2IGRhdGEtZW1iZWQtYnV0dG9uPSJ0aWRlX21lZGlhIiBkYXRhLWVudGl0eS1lbWJlZC1kaXNwbGF5PSJ2aWV3X21vZGU6bWVkaWEuZW1iZWRkZWQiIGRhdGEtZW50aXR5LXR5cGU9Im1lZGlhIiBkYXRhLWVudGl0eS11dWlkPSI5ZGQ2MmVhZS0zOWUyLTQwZjctYjJhNi1mODQ0MjEwNDFmODMiIGRhdGEtbGFuZ2NvZGU9ImVuIj48YXJ0aWNsZSBjbGFzcz0ibWVkaWEgbWVkaWEtLXR5cGUtaW1hZ2UgbWVkaWEtLXZpZXctbW9kZS1lbWJlZGRlZCI+PGRpdiBjbGFzcz0iZmllbGQgZmllbGQtLW5hbWUtZmllbGQtbWVkaWEtaW1hZ2UgZmllbGQtLXR5cGUtaW1hZ2UgZmllbGQtLWxhYmVsLWhpZGRlbiBmaWVsZF9faXRlbSI+PGltZyBhbHQ9IiBKdWR5IFRlZ2FydC1EYWx0b24gQU0gLSAyMDE5IFZpY3RvcmlhbiBIb25vdXIgUm9sbCBvZiBXb21lbiBpbmR1Y3RlZSIgaGVpZ2h0PSIxNTAiIHNyYz0iaHR0cHM6Ly9uZ2lueC1waHAtY29udGVudC12aWMtZGV2ZWxvcC5sYWdvb24udmljc2RwLmFtYXplZS5pby9zaXRlcy9kZWZhdWx0L2ZpbGVzLzIwMTktMDMvd29tZW5zLWhvbm91ci1yb2xsLTIwMTktSnVkeS1UZWdhcnQtRGFsdG9uLnBuZyIgdGl0bGU9IiBKdWR5IFRlZ2FydC1EYWx0b24gQU0gLSAyMDE5IFZpY3RvcmlhbiBIb25vdXIgUm9sbCBvZiBXb21lbiBpbmR1Y3RlZSIgd2lkdGg9IjE1MCI+PC9kaXY+PC9hcnRpY2xlPjwvZGl2PiA8ZmlnY2FwdGlvbj5jYXB0aW9uPC9maWdjYXB0aW9uPjwvZmlndXJlPiA8YmxvY2txdW90ZT48cD4mbmJzcDtXaGVuIEkgaGF2ZSBzZWVuIGJ5IFRpbWVcJ3MgZmVsbCBoYW5kIGRlZmFjXCdkIFRoZSByaWNoIHByb3VkIGNvc3Qgb2Ygb3V0d29ybiBidXJpZWQgYWdlOyBXaGVuIHNvbWV0aW1lIGxvZnR5IHRvd2VycyBJIHNlZSBkb3duLXJhc1wnZCBBbmQgYnJhc3MgZXRlcm5hbCBzbGF2ZSB0byBtb3J0YWwgcmFnZTs8L3A+PC9ibG9ja3F1b3RlPiA8cD5XaGVuIEkgaGF2ZSBzZWVuIHRoZSBodW5ncnkgb2NlYW4gZ2FpbiBBZHZhbnRhZ2Ugb24gdGhlIGtpbmdkb20gb2YgdGhlIHNob3JlLCBBbmQgdGhlIGZpcm0gc29pbCB3aW4gb2YgdGhlIHdhdFwncnkgbWFpbiwgSW5jcmVhc2luZyBzdG9yZSB3aXRoIGxvc3MgYW5kIGxvc3Mgd2l0aCBzdG9yZTsgV2hlbiBJIGhhdmUgc2VlbiBzdWNoIGludGVyY2hhbmdlIG9mIHN0YXRlLCBPciBzdGF0ZSBpdHNlbGYgY29uZm91bmRlZCB0byBkZWNheTsgUnVpbiBoYXRoIHRhdWdodCBtZSB0aHVzIHRvIHJ1bWluYXRlLCBUaGF0IFRpbWUgd2lsbCBjb21lIGFuZCB0YWtlIG15IGxvdmUgYXdheS4gVGhpcyB0aG91Z2h0IGlzIGFzIGEgZGVhdGgsIHdoaWNoIGNhbm5vdCBjaG9vc2UgQnV0IHdlZXAgdG8gaGF2ZSB0aGF0IHdoaWNoIGl0IGZlYXJzIHRvIGxvc2UuPC9wPiA8cD48L3A+PGRpdiBjbGFzcz0icnBsLW1hcmt1cF9faWZyYW1lLWNvbnRhaW5lciI+PGlmcmFtZSBmcmFtZWJvcmRlcj0iMCIgaGVpZ2h0PSI2MDAiIHNjcm9sbGluZz0ibm8iIHNyYz0iaHR0cHM6Ly9tYXp6YW5ldC5uZXQuYXUvY2ZhLz9tYWdpY2tleT1jZmFtb25pdG9yJmFtcDtyZWc9MTMiIHdpZHRoPSI2MDAiPjwvaWZyYW1lPjwvZGl2PjxwPjwvcD48L2Rpdj4nLCBidXQgdGhlIEhUTUwgd2FzICc8ZGl2IGNsYXNzPSJycGwtbWFya3VwX19pbm5lciI+PHA+QW5kIGluIHRoZSBza3kgdGhlIGNsb3VkcyB3ZXJlIHR3aXN0aW5nIGFuZCBkYXJrbmVzcyBmbG93ZWQgdGhyb3VnaCBhbGwgdGhlIGNyYWNrcyBpbnRvIHRoZSBzaW5raW5nIHZlc3NlbCBvZiB0aGUgbGFuZHNjYXBlLiBPbmx5IGluIHRoZSB0ZWxlZ3JhcGggd2lyZXMgYSBtZXNzYWdlIHN0aWxsIGNyYWNrbGVkLjwvcD4gPGZpZ3VyZSBjbGFzcz0icnBsLWRvY3VtZW50LWxpbmsiPjxhIGFyaWEtbGFiZWw9IlJBUCBBcmVhIE1hcCBmb3IgQmFyZW5naSBHYWRqaW4gTGFuZCBDb3VuY2lsIEZpbGUgdHlwZTogcGRmLiBTaXplOiAyLjg0IE1CIiBocmVmPSIvc2l0ZXMvZGVmYXVsdC9maWxlcy8yMDE4LTEwL0JhcmVuZ2klMjBHYWRqaW4td3YtMjZPQ1QxNy5wZGYiIGRvd25sb2FkPSIiIGNsYXNzPSJycGwtZG9jdW1lbnQtbGlua19fbGluayI+PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgY2xhc3M9InJwbC1kb2N1bWVudC1saW5rX19pY29uIHJwbC1pY29uIHJwbC1pY29uLS1wZGYgcnBsLWljb24tLWNvbG9yX3ByaW1hcnkiIHN0eWxlPSJ3aWR0aDozMHB4O2hlaWdodDozMHB4OyI+PHVzZSB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeGxpbms6aHJlZj0iI3JwbF9pY29uX3BkZiIgaHJlZj0iI3JwbF9pY29uX3BkZiI+PC91c2U+PC9zdmc+IDxkaXYgY2xhc3M9InJwbC1kb2N1bWVudC1saW5rX19pbmZvIj48c3BhbiBjbGFzcz0icnBsLWRvY3VtZW50LWxpbmtfX3RpdGxlIj5SQVAgQXJlYSBNYXAgZm9yIEJhcmVuZ2kgR2FkamluIExhbmQgQ291bmNpbDwvc3Bhbj4gPGRpdiBjbGFzcz0icnBsLWRvY3VtZW50LWxpbmtfX21ldGEiPjxzcGFuIGNsYXNzPSJycGwtZG9jdW1lbnQtbGlua19fdHlwZSI+cGRmPC9zcGFuPiA8c3BhbiBjbGFzcz0icnBsLWRvY3VtZW50LWxpbmtfX3NpemUgcnBsLWRvY3VtZW50LWxpbmtfX3NpemUtLXNlcGVyYXRvciI+Mi44NCBNQjwvc3Bhbj48L2Rpdj48L2Rpdj48L2E+IDxmaWdjYXB0aW9uIGNsYXNzPSJycGwtZG9jdW1lbnQtbGlua19fY2FwdGlvbiI+Y2FwdGlvbjwvZmlnY2FwdGlvbj48L2ZpZ3VyZT4gPGZpZ3VyZSByb2xlPSJncm91cCIgY2xhc3M9ImNhcHRpb24gY2FwdGlvbi1kaXYgZW1iZWRkZWQtZW50aXR5IGVtYmVkZGVkLWVudGl0eS0tbWVkaWEgZW1iZWRkZWQtZW50aXR5LS1tZWRpYS0taW1hZ2UiPjxkaXYgZGF0YS1lbWJlZC1idXR0b249InRpZGVfbWVkaWEiIGRhdGEtZW50aXR5LWVtYmVkLWRpc3BsYXk9InZpZXdfbW9kZTptZWRpYS5lbWJlZGRlZCIgZGF0YS1lbnRpdHktdHlwZT0ibWVkaWEiIGRhdGEtZW50aXR5LXV1aWQ9IjlkZDYyZWFlLTM5ZTItNDBmNy1iMmE2LWY4NDQyMTA0MWY4MyIgZGF0YS1sYW5nY29kZT0iZW4iPjxhcnRpY2xlIGNsYXNzPSJtZWRpYSBtZWRpYS0tdHlwZS1pbWFnZSBtZWRpYS0tdmlldy1tb2RlLWVtYmVkZGVkIj48ZGl2IGNsYXNzPSJmaWVsZCBmaWVsZC0tbmFtZS1maWVsZC1tZWRpYS1pbWFnZSBmaWVsZC0tdHlwZS1pbWFnZSBmaWVsZC0tbGFiZWwtaGlkZGVuIGZpZWxkX19pdGVtIj48aW1nIGFsdD0iIEp1ZHkgVGVnYXJ0LURhbHRvbiBBTSAtIDIwMTkgVmljdG9yaWFuIEhvbm91ciBSb2xsIG9mIFdvbWVuIGluZHVjdGVlIiBoZWlnaHQ9IjE1MCIgc3JjPSJodHRwczovL3d3dy5kZXZlbG9wLmNvbnRlbnQudmljLmdvdi5hdS9zaXRlcy9kZWZhdWx0L2ZpbGVzLzIwMTktMDMvd29tZW5zLWhvbm91ci1yb2xsLTIwMTktSnVkeS1UZWdhcnQtRGFsdG9uLnBuZyIgdGl0bGU9IiBKdWR5IFRlZ2FydC1EYWx0b24gQU0gLSAyMDE5IFZpY3RvcmlhbiBIb25vdXIgUm9sbCBvZiBXb21lbiBpbmR1Y3RlZSIgd2lkdGg9IjE1MCI+PC9kaXY+PC9hcnRpY2xlPjwvZGl2PiA8ZmlnY2FwdGlvbj5jYXB0aW9uPC9maWdjYXB0aW9uPjwvZmlndXJlPiA8YmxvY2txdW90ZT48cD4mbmJzcDtXaGVuIEkgaGF2ZSBzZWVuIGJ5IFRpbWVcJ3MgZmVsbCBoYW5kIGRlZmFjXCdkIFRoZSByaWNoIHByb3VkIGNvc3Qgb2Ygb3V0d29ybiBidXJpZWQgYWdlOyBXaGVuIHNvbWV0aW1lIGxvZnR5IHRvd2VycyBJIHNlZSBkb3duLXJhc1wnZCBBbmQgYnJhc3MgZXRlcm5hbCBzbGF2ZSB0byBtb3J0YWwgcmFnZTs8L3A+PC9ibG9ja3F1b3RlPiA8cD5XaGVuIEkgaGF2ZSBzZWVuIHRoZSBodW5ncnkgb2NlYW4gZ2FpbiBBZHZhbnRhZ2Ugb24gdGhlIGtpbmdkb20gb2YgdGhlIHNob3JlLCBBbmQgdGhlIGZpcm0gc29pbCB3aW4gb2YgdGhlIHdhdFwncnkgbWFpbiwgSW5jcmVhc2luZyBzdG9yZSB3aXRoIGxvc3MgYW5kIGxvc3Mgd2l0aCBzdG9yZTsgV2hlbiBJIGhhdmUgc2VlbiBzdWNoIGludGVyY2hhbmdlIG9mIHN0YXRlLCBPciBzdGF0ZSBpdHNlbGYgY29uZm91bmRlZCB0byBkZWNheTsgUnVpbiBoYXRoIHRhdWdodCBtZSB0aHVzIHRvIHJ1bWluYXRlLCBUaGF0IFRpbWUgd2lsbCBjb21lIGFuZCB0YWtlIG15IGxvdmUgYXdheS4gVGhpcyB0aG91Z2h0IGlzIGFzIGEgZGVhdGgsIHdoaWNoIGNhbm5vdCBjaG9vc2UgQnV0IHdlZXAgdG8gaGF2ZSB0aGF0IHdoaWNoIGl0IGZlYXJzIHRvIGxvc2UuPC9wPiA8cD48L3A+PGRpdiBjbGFzcz0icnBsLW1hcmt1cF9faWZyYW1lLWNvbnRhaW5lciI+PGlmcmFtZSBmcmFtZWJvcmRlcj0iMCIgaGVpZ2h0PSI2MDAiIHNjcm9sbGluZz0ibm8iIHNyYz0iaHR0cHM6Ly9tYXp6YW5ldC5uZXQuYXUvY2ZhLz9tYWdpY2tleT1jZmFtb25pdG9yJmFtcDtyZWc9MTMiIHdpZHRoPSI2MDAiPjwvaWZyYW1lPjwvZGl2PjxwPjwvcD48L2Rpdj4n",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "there should be 2 accordion components",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the number 1 accordion title should be \"Accordion Title\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "body"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Accordion Content",
+                      "Lorem ipsum"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the accordion titled \"Accordion Title\" should contain the following items:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "there should be a card carousel titled \"Latest items (Event)\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "the card carousel titled \"Latest items (Event)\" should have 9 items",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "there should be a promotion card with the title \"Card Promotion\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "date",
+                      "title",
+                      "summary",
+                      "ctalink",
+                      "ctatext"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "02 July",
+                      "Card Promotion",
+                      "Mauris tincidunt tincidunt felis vel tempus. Vestibulum rhoncus blandit justo quis finibus.",
+                      "https://www.vic.gov.au",
+                      "Vestibulum  rhoncus"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 53,
+            "name": "the promotion card titled \"Card Promotion\" should contain the following:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "there should be a promotion card with the title \"Demo Page\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "ctalink",
+                      "ctatext"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Demo Page",
+                      "/demo-page",
+                      "Read  more"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 59,
+            "name": "the promotion card titled \"Demo Page\" should contain the following:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "there should be a navigation featured card with the title \"Card Promotion\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "image",
+                      "summary",
+                      "link"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Card Promotion",
+                      "https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-09/Melbourne%20tram.jpg",
+                      "Mauris tincidunt tincidunt felis vel tempus. Vestibulum rhoncus blandit justo quis finibus.",
+                      "https://www.vic.gov.au"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 65,
+            "name": "the navigation card featured titled \"Card Promotion\" should contain the following:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "there should be a navigation featured automated card with the title \"Demo News\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "image",
+                      "link"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Demo News",
+                      "https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-09/Melbourne%20tram.jpg",
+                      "/demo-news"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 71,
+            "name": "the navigation featured automated card titled \"Demo News\" should contain the following:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "there should be a navigation card with the title \"Card Promotion\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "summary",
+                      "link",
+                      "linktext"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Card Promotion",
+                      "Mauris tincidunt tincidunt felis vel tempus. Vestibulum rhoncus blandit justo quis finibus.",
+                      "https://www.vic.gov.au",
+                      "Vestibulum rhoncus"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 77,
+            "name": "the navigation card titled \"Card Promotion\" should contain the following:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "there should be a navigation card with the title \"Demo Page\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "link"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Demo Page",
+                      "/demo-page"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 83,
+            "name": "the navigation card titled \"Demo Page\" should contain the following:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "there should be a keydates card with the title \"Key calendar dates\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "ctalink",
+                      "ctatext"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Key calendar dates",
+                      "https://www.vic.gov.au",
+                      "Read  more"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 89,
+            "name": "the keydates card titled \"Key calendar dates\" should contain the following:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "date",
+                      "title",
+                      "description"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1 June",
+                      "Demo Key Date",
+                      "First key date summary."
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "2 June",
+                      "Demo Key Date 2",
+                      "Second key date summary."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 92,
+            "name": "the keydates card titled \"Key calendar dates\" should have the following items:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "date",
+                      "tag",
+                      "title",
+                      "link"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "02 July",
+                      "Demo Topic",
+                      "Demo News",
+                      "/demo-news"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 98,
+            "name": "the featured news listing component should have the following items:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "date",
+                      "tag",
+                      "title",
+                      "link"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "02 July 2019",
+                      "Demo Topic",
+                      "Demo  News",
+                      "/demo-news"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 103,
+            "name": "the news listing component should have the following items:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "image",
+                      "title"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-09/2018-19%20State%20Budget.jpg",
+                      "1 / 4 - Demo: 2018-19 State Budget"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-09/Aerial%20shot%20of%20new%20housing%20development.jpg",
+                      "2 / 4 - Demo: Aerial shot of new housing development"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-09/Bendigo%20Hospital.jpg",
+                      "3 / 4 - Demo: Bendigo Hospital"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-09/Melbourne%20tram.jpg",
+                      "4 / 4 - Demo: Melbourne tram"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 108,
+            "name": "the image gallery component should have the following items:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 116,
+            "name": "there should be an event card with the title \"Demo Event\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "date",
+                      "title",
+                      "summary",
+                      "address",
+                      "link",
+                      "linktext"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "02 to 07 July",
+                      "Demo Event",
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt sit amet ligula sit amet lacinia. In a leo nec tortor aliquet faucibus.",
+                      "Melbourne",
+                      "/demo-event",
+                      "View  more"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 117,
+            "name": "the event card titled \"Demo Event\" should contain the following:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 122,
+            "name": "there should be a card carousel titled \"Card Carousel for Card Event\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 123,
+            "name": "the card carousel titled \"Card Carousel for Card Event\" should have 2 items",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "date",
+                      "title",
+                      "image",
+                      "summary",
+                      "address",
+                      "link",
+                      "linktext"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01 January to 12 December 2020",
+                      "Carousel Card Event",
+                      "https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-09/Melbourne%20tram.jpg",
+                      "Mauris tincidunt tincidunt felis vel tempus. Vestibulum rhoncus blandit justo quis finibus.",
+                      "Melbourne",
+                      "https://www.vic.gov.au",
+                      "Read  more"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "01 January",
+                      "Carousel Card Event 2",
+                      "https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-09/Melbourne%20tram.jpg",
+                      "Mauris tincidunt tincidunt felis vel tempus. Vestibulum rhoncus blandit justo quis finibus.",
+                      "Melbourne",
+                      "https://www.vic.gov.au",
+                      "Read  more"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 124,
+            "name": "the card carousel titled \"Card Carousel for Card Event\" should have the following items:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 130,
+            "name": "there should be a latest events titled \"Demo latest events\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 131,
+            "name": "the latest events titled \"Demo latest events\" should have 6 items",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "body",
+                      "image",
+                      "linktext",
+                      "link"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Latest Event 1",
+                      "Mauris tincidunt tincidunt felis vel tempus.",
+                      "https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-09/Melbourne%20tram.jpg",
+                      "See more",
+                      "https://www.vic.gov.au"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 136,
+            "name": "the latest events titled \"Demo latest events\" should have a call to action card with the following:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 141,
+            "name": "the timeline component titled \"Demo Timeline\" should exist",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "date",
+                      "summary",
+                      "image",
+                      "link"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Demo Timeline Item",
+                      "01 January",
+                      "Mauris tincidunt tincidunt felis vel tempus. Vestibulum rhoncus blandit justo quis finibus.",
+                      "https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-09/Melbourne%20tram.jpg",
+                      "https://www.vic.gov.au"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Demo Timeline Item 2",
+                      "Alternative",
+                      "Anim excepteur magna eu aliqua quis velit voluptate sit culpa.",
+                      "https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-09/Melbourne%20tram.jpg",
+                      "https://www.vic.gov.au"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 142,
+            "name": "the timeline component titled \"Demo Timeline\" should have the following items:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 148,
+            "name": "the key journey component should exist",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "linktext",
+                      "link"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Nullam  laoreet",
+                      "https://vic.gov.au"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Nullam  laoreet",
+                      "https://vic.gov.au"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 149,
+            "name": "the key journey component should have the following items:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 155,
+            "name": "the contact component title should be \"Victorian Government\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 156,
+            "name": "the contact component details should be \"Victorian Government Department of Premier and Cabinet Department of Premier and Cabinet, GPO Box 4509, Melbourne, VIC 3001\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "link",
+                      "linktext"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "https://www.google.com.au/maps?q=Department%20of%20Premier%20and%20Cabinet,%20GPO%20Box%204509,%20Melbourne,%20VIC%203001",
+                      "Department of Premier and Cabinet, GPO Box 4509, Melbourne, VIC 3001"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "tel:1300366356",
+                      "Calls in Australia 1300 366 356"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "tel:+61396038804",
+                      "Calls from overseas +61 3 9603 8804"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mailto:no-reply@vic.gov.au",
+                      "no-reply@vic.gov.au"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "https://twitter.com/VicGovAu",
+                      "Twitter"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 157,
+            "name": "the contact component should have the following items:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 166,
+            "name": "there should be a call to action component with the title \"Phasellus in varius leo\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "image",
+                      "summary",
+                      "link",
+                      "linktext"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Phasellus in varius leo",
+                      "https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-09/Melbourne%20tram.jpg",
+                      "Mauris tincidunt tincidunt felis vel tempus. Vestibulum rhoncus blandit justo quis finibus. Phasellus lacus lectus, sollicitudin sed posuere non, ultricies ut quam.",
+                      "https://vic.gov.au",
+                      "Victorian Government"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 167,
+            "name": "the call to action component titled \"Phasellus in varius leo\" should contain the following:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 172,
+            "name": "the related links component should exist",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 173,
+            "name": "the related links title should be \"Related links\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "url"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "State Government of  Victoria",
+                      "https://www.vic.gov.au"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Department of Premier and  Cabinet",
+                      "https://www.vic.gov.au/department-premier-and-cabinet"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 174,
+            "name": "the related links should contain the following links:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 180,
+            "name": "the whats next component should exist",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 181,
+            "name": "the whats next title should be \"What's next?\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "url"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "State Government of  Victoria",
+                      "https://www.vic.gov.au"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Department of Premier and  Cabinet",
+                      "https://www.vic.gov.au/department-premier-and-cabinet"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 182,
+            "name": "the whats next links should be:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 188,
+            "name": "the share this component should exist",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 189,
+            "name": "the share this component should have the title \"Share this\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "network"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Twitter"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Facebook"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "LinkedIn"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 190,
+            "name": "the share this component should have the following social links:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 195,
+            "name": "the share this links should read \"open in a new window\" to screen readers",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 198,
+            "name": "the content rating component should exist",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 199,
+            "name": "the content rating component legend should be \"Was this page helpful?\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 200,
+            "name": "I click the \"Yes\" radio button in the content rating component",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 201,
+            "name": "the content rating component summary textfield should display",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 202,
+            "name": "the the content rating component \"Cancel\" button should be visible",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 203,
+            "name": "the the content rating component \"Submit\" button should be visible",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

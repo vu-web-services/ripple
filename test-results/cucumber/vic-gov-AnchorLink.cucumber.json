@@ -1,0 +1,103 @@
+[
+  {
+    "description": "  As a citizen I need to be able to scroll to a section in the page content when clicking an anchor link",
+    "keyword": "Feature",
+    "name": "Anchor link",
+    "line": 1,
+    "id": "anchor-link",
+    "tags": [],
+    "uri": "AnchorLink.feature",
+    "elements": [
+      {
+        "id": "anchor-link;visit-a-url-with-anchor-link-via-link",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Visit a url with anchor link via link",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the \"/anchorlink-test\" page exists with fixture \"page/anchorlinktest\" data",
+            "result": {
+              "status": "passed",
+              "duration": 529000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I visit the page \"/anchorlink-test\"",
+            "result": {
+              "status": "passed",
+              "duration": 7764000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click the link \"/demo-landing-page#accordion-header-basic\"",
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I wait for 10 seconds",
+            "result": {
+              "status": "passed",
+              "duration": 10047000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the page should scroll to \"#accordion-header-basic\"",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "anchor-link;visit-a-url-with-anchor-link",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Visit a url with anchor link",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I visit the page \"/demo-landing-page#accordion-header-basic\"",
+            "result": {
+              "status": "passed",
+              "duration": 9366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the page should scroll to \"#accordion-header-basic\"",
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

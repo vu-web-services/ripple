@@ -1,0 +1,247 @@
+[
+  {
+    "description": "  As a citizen I want to view a Basic page within the site",
+    "keyword": "Feature",
+    "name": "Basic Page",
+    "line": 2,
+    "id": "basic-page",
+    "tags": [],
+    "uri": "page.feature",
+    "elements": [
+      {
+        "id": "basic-page;8-fe-page-2-view-basic-page",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "8-FE-page-2 View Basic Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the \"/8-be-page-1-create-basic-page\" page exists with fixture \"page/8-BE-page-1-basic-page\" data",
+            "result": {
+              "status": "passed",
+              "duration": 573000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I visit the page \"/8-be-page-1-create-basic-page\"",
+            "result": {
+              "status": "passed",
+              "duration": 9210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the page title should be \"8-BE-page-1 Create Basic page\"",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the hero banner desciption should be \"Intro So now all who escaped death in battle or by shipwreck had got safely home except Ulysses, and he, though he was longing to return to his wife and country, was detained by the goddess Calypso, who had got him into a large cave and wanted to marry him. But as years went by, there came a time when the gods settled that he should go back to Ithaca; even then, however, when he was among his own people, his troubles were not yet over; nevertheless all the gods had now begun to pity him except Neptune, who still persecuted him without ceasing and would not let him get END.\"",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the order number 1 wysiwyg content matches fixture \"/snippets/FE-examplebody\"",
+            "result": {
+              "status": "failed",
+              "duration": 915000000,
+              "error_message": "AssertionError: expected '<div.rpl-markup.tide-wysiwyg.app-wysiwyg>' to have HTML '<div class=\"rpl-markup__inner\"><h2 id=\"nulla-ultricies-dignissim-leo-posuere-vestibulum-erat-cursus-vitae\">Nulla ultricies dignissim leo, posuere vestibulum erat cursus vitae</h2> <h3>Phasellus congue aliquam vehicula</h3> <p class=\"wysiwyg-callout\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt sit amet ligula sit amet lacinia. In a leo nec tortor aliquet faucibus. Quisque nec congue ligula, vitae condimentum tellus. Nulla nec urna augue. Curabitur commodo nisi est, eu pulvinar tortor cursus vel. Morbi dictum ex est, et semper diam finibus eu. Cras rutrum, nunc a fringilla convallis, massa est vulputate velit, in blandit augue dui vitae elit. Donec hendrerit commodo augue, in maximus orci tempor congue. Mauris ultricies euismod orci, nec vehicula quam vehicula ac. Nunc dictum tortor dolor, nec eleifend orci luctus sed.</p> <h3>Donec scelerisque cursus ex varius efficitur</h3> <h4>Morbi cursus placerat mi</h4> <h5>Nullam laoreet ante placerat</h5> <div data-embed-button=\"tide_media\" data-entity-embed-display=\"view_mode:media.embedded\" data-entity-type=\"media\" data-entity-uuid=\"11dede11-10c0-111e1-1100-000000000124\" data-langcode=\"en\" class=\"embedded-entity embedded-entity--media embedded-entity--media--image\"><article class=\"media media--type-image media--view-mode-embedded\"><div class=\"field field--name-field-media-image field--type-image field--label-hidden field__item\"><img src=\"https://nginx-php-content-vic-develop.lagoon.vicsdp.amazee.io/sites/default/files/2019-08/Melbourne%20tram.jpg\" width=\"1413\" height=\"785\" alt=\"Demo: Melbourne tram\" title=\"Demo: Melbourne tram\"></div></article></div> <p>Integer interdum nisl ut neque dictum, et sagittis metus feugiat. Sed in mattis neque. Duis at risus non ipsum semper dapibus. Sed enim sapien, molestie sed commodo vel, lacinia vitae risus. Proin sagittis diam nisi, sed rhoncus diam varius id. Sed malesuada felis tortor, scelerisque pretium elit tempor non. Pellentesque ultrices volutpat tincidunt. Fusce quis viverra urna, quis finibus nulla.</p> <blockquote class=\"quotation\"><p>Mauris tincidunt tincidunt felis vel tempus. Vestibulum rhoncus blandit justo quis finibus. Phasellus lacus lectus, sollicitudin sed posuere non, ultricies ut quam.</p> <footer><cite><span class=\"quotation__author\">Duis ligula lacus</span><br> <span class=\"quotation__author-title\">Phasellus est turpis, efficitur nec odio imperdiet</span><br></cite></footer></blockquote>\\nMauris tincidunt tincidunt felis vel tempus\\n\\n      <div class=\"rpl-embedded-video rpl-markup__embedded-video\"><div class=\"rpl-embedded-video-iframe-container\"><iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/bSlnfyGTiss?autoplay=0&amp;start=0&amp;rel=0\" lang=\"undefined\" allowfullscreen=\"allowfullscreen\" class=\"rpl-embedded-video-frame\"></iframe></div> <!----> <div class=\"rpl-embed-video__transcript\"></div></div> <p>Phasellus in varius leo. Suspendisse potenti. Donec scelerisque cursus ex varius efficitur. Vivamus pretium nisi sed libero accumsan mattis. Duis convallis, velit eget varius tempus, orci erat aliquam sem, eget porta mauris nisl at mauris.</p> <figure class=\"rpl-document-link\"><a aria-label=\"Demo Sample Document File type: docx. Size: 7.53 KB\" href=\"/sites/default/files/2019-08/sample.docx\" download=\"\" class=\"rpl-document-link__link\"><svg aria-hidden=\"true\" class=\"rpl-document-link__icon rpl-icon rpl-icon--docx rpl-icon--color_primary\" style=\"width:30px;height:30px;\"><use xlink:href=\"#rpl_icon_docx\" href=\"#rpl_icon_docx\"></use></svg> <div class=\"rpl-document-link__info\"><span class=\"rpl-document-link__title\">Demo Sample Document</span> <div class=\"rpl-document-link__meta\"><span class=\"rpl-document-link__type\">docx</span> <span class=\"rpl-document-link__size rpl-document-link__size--seperator\">7.53 KB</span></div></div></a> <!----></figure></div>', but the HTML was '<div class=\"rpl-markup__inner\"><h2 id=\"nulla-ultricies-dignissim-leo-posuere-vestibulum-erat-cursus-vitae\">Nulla ultricies dignissim leo, posuere vestibulum erat cursus vitae</h2> <h3>Phasellus congue aliquam vehicula</h3> <p class=\"wysiwyg-callout\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt sit amet ligula sit amet lacinia. In a leo nec tortor aliquet faucibus. Quisque nec congue ligula, vitae condimentum tellus. Nulla nec urna augue. Curabitur commodo nisi est, eu pulvinar tortor cursus vel. Morbi dictum ex est, et semper diam finibus eu. Cras rutrum, nunc a fringilla convallis, massa est vulputate velit, in blandit augue dui vitae elit. Donec hendrerit commodo augue, in maximus orci tempor congue. Mauris ultricies euismod orci, nec vehicula quam vehicula ac. Nunc dictum tortor dolor, nec eleifend orci luctus sed.</p> <h3>Donec scelerisque cursus ex varius efficitur</h3> <h4>Morbi cursus placerat mi</h4> <h5>Nullam laoreet ante placerat</h5> <div data-embed-button=\"tide_media\" data-entity-embed-display=\"view_mode:media.embedded\" data-entity-type=\"media\" data-entity-uuid=\"11dede11-10c0-111e1-1100-000000000124\" data-langcode=\"en\" class=\"embedded-entity embedded-entity--media embedded-entity--media--image\"><article class=\"media media--type-image media--view-mode-embedded\"><div class=\"field field--name-field-media-image field--type-image field--label-hidden field__item\"><img src=\"https://www.develop.content.vic.gov.au/sites/default/files/2019-10/Melbourne%20tram.jpg\" width=\"1413\" height=\"785\" alt=\"Demo: Melbourne tram\" title=\"Demo: Melbourne tram\"></div></article></div> <p>Integer interdum nisl ut neque dictum, et sagittis metus feugiat. Sed in mattis neque. Duis at risus non ipsum semper dapibus. Sed enim sapien, molestie sed commodo vel, lacinia vitae risus. Proin sagittis diam nisi, sed rhoncus diam varius id. Sed malesuada felis tortor, scelerisque pretium elit tempor non. Pellentesque ultrices volutpat tincidunt. Fusce quis viverra urna, quis finibus nulla.</p> <blockquote class=\"quotation\"><p>Mauris tincidunt tincidunt felis vel tempus. Vestibulum rhoncus blandit justo quis finibus. Phasellus lacus lectus, sollicitudin sed posuere non, ultricies ut quam.</p> <footer><cite><span class=\"quotation__author\">Duis ligula lacus</span><br> <span class=\"quotation__author-title\">Phasellus est turpis, efficitur nec odio imperdiet</span><br></cite></footer></blockquote>\\nMauris tincidunt tincidunt felis vel tempus\\n\\n      <div class=\"rpl-embedded-video rpl-markup__embedded-video\"><div class=\"rpl-embedded-video-iframe-container\"><iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/bSlnfyGTiss?autoplay=0&amp;start=0&amp;rel=0\" lang=\"undefined\" allowfullscreen=\"allowfullscreen\" class=\"rpl-embedded-video-frame\"></iframe></div> <!----> <div class=\"rpl-embed-video__transcript\"></div></div> <p>Phasellus in varius leo. Suspendisse potenti. Donec scelerisque cursus ex varius efficitur. Vivamus pretium nisi sed libero accumsan mattis. Duis convallis, velit eget varius tempus, orci erat aliquam sem, eget porta mauris nisl at mauris.</p> <figure class=\"rpl-document-link\"><a aria-label=\"Demo Sample Document File type: docx. Size: 7.53 KB\" href=\"/sites/default/files/2019-10/sample.docx\" download=\"\" class=\"rpl-document-link__link\"><svg aria-hidden=\"true\" class=\"rpl-document-link__icon rpl-icon rpl-icon--docx rpl-icon--color_primary\" style=\"width:30px;height:30px;\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#rpl_icon_docx\" href=\"#rpl_icon_docx\"></use></svg> <div class=\"rpl-document-link__info\"><span class=\"rpl-document-link__title\">Demo Sample Document</span> <div class=\"rpl-document-link__meta\"><span class=\"rpl-document-link__type\">docx</span> <span class=\"rpl-document-link__size rpl-document-link__size--seperator\">7.53 KB</span></div></div></a> <!----></figure></div>'\n    at getRet (http://localhost:3000/__cypress/runner/cypress_runner.js:71895:16)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:118962:23)\n    at Function.Promise.attempt.Promise.try (http://localhost:3000/__cypress/runner/cypress_runner.js:116237:29)\n    at Context.thenFn (http://localhost:3000/__cypress/runner/cypress_runner.js:71909:23)\n    at Context.then (http://localhost:3000/__cypress/runner/cypress_runner.js:72229:21)\n    at Context.<anonymous> (http://localhost:3000/__cypress/runner/cypress_runner.js:80256:21)\n    at http://localhost:3000/__cypress/runner/cypress_runner.js:79783:33\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:118962:23)\n    at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:116898:31)\n    at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:116955:18)\n    at Promise._settlePromiseCtx (http://localhost:3000/__cypress/runner/cypress_runner.js:116992:10)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:113692:12)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:113697:10)\n    at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:113571:14)\n    at <anonymous>"
+            },
+            "embeddings": [
+              {
+                "data": "ZXhwZWN0ZWQgJzxkaXYucnBsLW1hcmt1cC50aWRlLXd5c2l3eWcuYXBwLXd5c2l3eWc+JyB0byBoYXZlIEhUTUwgJzxkaXYgY2xhc3M9InJwbC1tYXJrdXBfX2lubmVyIj48aDIgaWQ9Im51bGxhLXVsdHJpY2llcy1kaWduaXNzaW0tbGVvLXBvc3VlcmUtdmVzdGlidWx1bS1lcmF0LWN1cnN1cy12aXRhZSI+TnVsbGEgdWx0cmljaWVzIGRpZ25pc3NpbSBsZW8sIHBvc3VlcmUgdmVzdGlidWx1bSBlcmF0IGN1cnN1cyB2aXRhZTwvaDI+IDxoMz5QaGFzZWxsdXMgY29uZ3VlIGFsaXF1YW0gdmVoaWN1bGE8L2gzPiA8cCBjbGFzcz0id3lzaXd5Zy1jYWxsb3V0Ij5Mb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCwgY29uc2VjdGV0dXIgYWRpcGlzY2luZyBlbGl0LiBBbGlxdWFtIHRpbmNpZHVudCBzaXQgYW1ldCBsaWd1bGEgc2l0IGFtZXQgbGFjaW5pYS4gSW4gYSBsZW8gbmVjIHRvcnRvciBhbGlxdWV0IGZhdWNpYnVzLiBRdWlzcXVlIG5lYyBjb25ndWUgbGlndWxhLCB2aXRhZSBjb25kaW1lbnR1bSB0ZWxsdXMuIE51bGxhIG5lYyB1cm5hIGF1Z3VlLiBDdXJhYml0dXIgY29tbW9kbyBuaXNpIGVzdCwgZXUgcHVsdmluYXIgdG9ydG9yIGN1cnN1cyB2ZWwuIE1vcmJpIGRpY3R1bSBleCBlc3QsIGV0IHNlbXBlciBkaWFtIGZpbmlidXMgZXUuIENyYXMgcnV0cnVtLCBudW5jIGEgZnJpbmdpbGxhIGNvbnZhbGxpcywgbWFzc2EgZXN0IHZ1bHB1dGF0ZSB2ZWxpdCwgaW4gYmxhbmRpdCBhdWd1ZSBkdWkgdml0YWUgZWxpdC4gRG9uZWMgaGVuZHJlcml0IGNvbW1vZG8gYXVndWUsIGluIG1heGltdXMgb3JjaSB0ZW1wb3IgY29uZ3VlLiBNYXVyaXMgdWx0cmljaWVzIGV1aXNtb2Qgb3JjaSwgbmVjIHZlaGljdWxhIHF1YW0gdmVoaWN1bGEgYWMuIE51bmMgZGljdHVtIHRvcnRvciBkb2xvciwgbmVjIGVsZWlmZW5kIG9yY2kgbHVjdHVzIHNlZC48L3A+IDxoMz5Eb25lYyBzY2VsZXJpc3F1ZSBjdXJzdXMgZXggdmFyaXVzIGVmZmljaXR1cjwvaDM+IDxoND5Nb3JiaSBjdXJzdXMgcGxhY2VyYXQgbWk8L2g0PiA8aDU+TnVsbGFtIGxhb3JlZXQgYW50ZSBwbGFjZXJhdDwvaDU+IDxkaXYgZGF0YS1lbWJlZC1idXR0b249InRpZGVfbWVkaWEiIGRhdGEtZW50aXR5LWVtYmVkLWRpc3BsYXk9InZpZXdfbW9kZTptZWRpYS5lbWJlZGRlZCIgZGF0YS1lbnRpdHktdHlwZT0ibWVkaWEiIGRhdGEtZW50aXR5LXV1aWQ9IjExZGVkZTExLTEwYzAtMTExZTEtMTEwMC0wMDAwMDAwMDAxMjQiIGRhdGEtbGFuZ2NvZGU9ImVuIiBjbGFzcz0iZW1iZWRkZWQtZW50aXR5IGVtYmVkZGVkLWVudGl0eS0tbWVkaWEgZW1iZWRkZWQtZW50aXR5LS1tZWRpYS0taW1hZ2UiPjxhcnRpY2xlIGNsYXNzPSJtZWRpYSBtZWRpYS0tdHlwZS1pbWFnZSBtZWRpYS0tdmlldy1tb2RlLWVtYmVkZGVkIj48ZGl2IGNsYXNzPSJmaWVsZCBmaWVsZC0tbmFtZS1maWVsZC1tZWRpYS1pbWFnZSBmaWVsZC0tdHlwZS1pbWFnZSBmaWVsZC0tbGFiZWwtaGlkZGVuIGZpZWxkX19pdGVtIj48aW1nIHNyYz0iaHR0cHM6Ly9uZ2lueC1waHAtY29udGVudC12aWMtZGV2ZWxvcC5sYWdvb24udmljc2RwLmFtYXplZS5pby9zaXRlcy9kZWZhdWx0L2ZpbGVzLzIwMTktMDgvTWVsYm91cm5lJTIwdHJhbS5qcGciIHdpZHRoPSIxNDEzIiBoZWlnaHQ9Ijc4NSIgYWx0PSJEZW1vOiBNZWxib3VybmUgdHJhbSIgdGl0bGU9IkRlbW86IE1lbGJvdXJuZSB0cmFtIj48L2Rpdj48L2FydGljbGU+PC9kaXY+IDxwPkludGVnZXIgaW50ZXJkdW0gbmlzbCB1dCBuZXF1ZSBkaWN0dW0sIGV0IHNhZ2l0dGlzIG1ldHVzIGZldWdpYXQuIFNlZCBpbiBtYXR0aXMgbmVxdWUuIER1aXMgYXQgcmlzdXMgbm9uIGlwc3VtIHNlbXBlciBkYXBpYnVzLiBTZWQgZW5pbSBzYXBpZW4sIG1vbGVzdGllIHNlZCBjb21tb2RvIHZlbCwgbGFjaW5pYSB2aXRhZSByaXN1cy4gUHJvaW4gc2FnaXR0aXMgZGlhbSBuaXNpLCBzZWQgcmhvbmN1cyBkaWFtIHZhcml1cyBpZC4gU2VkIG1hbGVzdWFkYSBmZWxpcyB0b3J0b3IsIHNjZWxlcmlzcXVlIHByZXRpdW0gZWxpdCB0ZW1wb3Igbm9uLiBQZWxsZW50ZXNxdWUgdWx0cmljZXMgdm9sdXRwYXQgdGluY2lkdW50LiBGdXNjZSBxdWlzIHZpdmVycmEgdXJuYSwgcXVpcyBmaW5pYnVzIG51bGxhLjwvcD4gPGJsb2NrcXVvdGUgY2xhc3M9InF1b3RhdGlvbiI+PHA+TWF1cmlzIHRpbmNpZHVudCB0aW5jaWR1bnQgZmVsaXMgdmVsIHRlbXB1cy4gVmVzdGlidWx1bSByaG9uY3VzIGJsYW5kaXQganVzdG8gcXVpcyBmaW5pYnVzLiBQaGFzZWxsdXMgbGFjdXMgbGVjdHVzLCBzb2xsaWNpdHVkaW4gc2VkIHBvc3VlcmUgbm9uLCB1bHRyaWNpZXMgdXQgcXVhbS48L3A+IDxmb290ZXI+PGNpdGU+PHNwYW4gY2xhc3M9InF1b3RhdGlvbl9fYXV0aG9yIj5EdWlzIGxpZ3VsYSBsYWN1czwvc3Bhbj48YnI+IDxzcGFuIGNsYXNzPSJxdW90YXRpb25fX2F1dGhvci10aXRsZSI+UGhhc2VsbHVzIGVzdCB0dXJwaXMsIGVmZmljaXR1ciBuZWMgb2RpbyBpbXBlcmRpZXQ8L3NwYW4+PGJyPjwvY2l0ZT48L2Zvb3Rlcj48L2Jsb2NrcXVvdGU+XG5NYXVyaXMgdGluY2lkdW50IHRpbmNpZHVudCBmZWxpcyB2ZWwgdGVtcHVzXG5cbiAgICAgIDxkaXYgY2xhc3M9InJwbC1lbWJlZGRlZC12aWRlbyBycGwtbWFya3VwX19lbWJlZGRlZC12aWRlbyI+PGRpdiBjbGFzcz0icnBsLWVtYmVkZGVkLXZpZGVvLWlmcmFtZS1jb250YWluZXIiPjxpZnJhbWUgd2lkdGg9Ijg1NCIgaGVpZ2h0PSI0ODAiIHNyYz0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvYlNsbmZ5R1Rpc3M/YXV0b3BsYXk9MCZhbXA7c3RhcnQ9MCZhbXA7cmVsPTAiIGxhbmc9InVuZGVmaW5lZCIgYWxsb3dmdWxsc2NyZWVuPSJhbGxvd2Z1bGxzY3JlZW4iIGNsYXNzPSJycGwtZW1iZWRkZWQtdmlkZW8tZnJhbWUiPjwvaWZyYW1lPjwvZGl2PiA8IS0tLS0+IDxkaXYgY2xhc3M9InJwbC1lbWJlZC12aWRlb19fdHJhbnNjcmlwdCI+PC9kaXY+PC9kaXY+IDxwPlBoYXNlbGx1cyBpbiB2YXJpdXMgbGVvLiBTdXNwZW5kaXNzZSBwb3RlbnRpLiBEb25lYyBzY2VsZXJpc3F1ZSBjdXJzdXMgZXggdmFyaXVzIGVmZmljaXR1ci4gVml2YW11cyBwcmV0aXVtIG5pc2kgc2VkIGxpYmVybyBhY2N1bXNhbiBtYXR0aXMuIER1aXMgY29udmFsbGlzLCB2ZWxpdCBlZ2V0IHZhcml1cyB0ZW1wdXMsIG9yY2kgZXJhdCBhbGlxdWFtIHNlbSwgZWdldCBwb3J0YSBtYXVyaXMgbmlzbCBhdCBtYXVyaXMuPC9wPiA8ZmlndXJlIGNsYXNzPSJycGwtZG9jdW1lbnQtbGluayI+PGEgYXJpYS1sYWJlbD0iRGVtbyBTYW1wbGUgRG9jdW1lbnQgRmlsZSB0eXBlOiBkb2N4LiBTaXplOiA3LjUzIEtCIiBocmVmPSIvc2l0ZXMvZGVmYXVsdC9maWxlcy8yMDE5LTA4L3NhbXBsZS5kb2N4IiBkb3dubG9hZD0iIiBjbGFzcz0icnBsLWRvY3VtZW50LWxpbmtfX2xpbmsiPjxzdmcgYXJpYS1oaWRkZW49InRydWUiIGNsYXNzPSJycGwtZG9jdW1lbnQtbGlua19faWNvbiBycGwtaWNvbiBycGwtaWNvbi0tZG9jeCBycGwtaWNvbi0tY29sb3JfcHJpbWFyeSIgc3R5bGU9IndpZHRoOjMwcHg7aGVpZ2h0OjMwcHg7Ij48dXNlIHhsaW5rOmhyZWY9IiNycGxfaWNvbl9kb2N4IiBocmVmPSIjcnBsX2ljb25fZG9jeCI+PC91c2U+PC9zdmc+IDxkaXYgY2xhc3M9InJwbC1kb2N1bWVudC1saW5rX19pbmZvIj48c3BhbiBjbGFzcz0icnBsLWRvY3VtZW50LWxpbmtfX3RpdGxlIj5EZW1vIFNhbXBsZSBEb2N1bWVudDwvc3Bhbj4gPGRpdiBjbGFzcz0icnBsLWRvY3VtZW50LWxpbmtfX21ldGEiPjxzcGFuIGNsYXNzPSJycGwtZG9jdW1lbnQtbGlua19fdHlwZSI+ZG9jeDwvc3Bhbj4gPHNwYW4gY2xhc3M9InJwbC1kb2N1bWVudC1saW5rX19zaXplIHJwbC1kb2N1bWVudC1saW5rX19zaXplLS1zZXBlcmF0b3IiPjcuNTMgS0I8L3NwYW4+PC9kaXY+PC9kaXY+PC9hPiA8IS0tLS0+PC9maWd1cmU+PC9kaXY+JywgYnV0IHRoZSBIVE1MIHdhcyAnPGRpdiBjbGFzcz0icnBsLW1hcmt1cF9faW5uZXIiPjxoMiBpZD0ibnVsbGEtdWx0cmljaWVzLWRpZ25pc3NpbS1sZW8tcG9zdWVyZS12ZXN0aWJ1bHVtLWVyYXQtY3Vyc3VzLXZpdGFlIj5OdWxsYSB1bHRyaWNpZXMgZGlnbmlzc2ltIGxlbywgcG9zdWVyZSB2ZXN0aWJ1bHVtIGVyYXQgY3Vyc3VzIHZpdGFlPC9oMj4gPGgzPlBoYXNlbGx1cyBjb25ndWUgYWxpcXVhbSB2ZWhpY3VsYTwvaDM+IDxwIGNsYXNzPSJ3eXNpd3lnLWNhbGxvdXQiPkxvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0LCBjb25zZWN0ZXR1ciBhZGlwaXNjaW5nIGVsaXQuIEFsaXF1YW0gdGluY2lkdW50IHNpdCBhbWV0IGxpZ3VsYSBzaXQgYW1ldCBsYWNpbmlhLiBJbiBhIGxlbyBuZWMgdG9ydG9yIGFsaXF1ZXQgZmF1Y2lidXMuIFF1aXNxdWUgbmVjIGNvbmd1ZSBsaWd1bGEsIHZpdGFlIGNvbmRpbWVudHVtIHRlbGx1cy4gTnVsbGEgbmVjIHVybmEgYXVndWUuIEN1cmFiaXR1ciBjb21tb2RvIG5pc2kgZXN0LCBldSBwdWx2aW5hciB0b3J0b3IgY3Vyc3VzIHZlbC4gTW9yYmkgZGljdHVtIGV4IGVzdCwgZXQgc2VtcGVyIGRpYW0gZmluaWJ1cyBldS4gQ3JhcyBydXRydW0sIG51bmMgYSBmcmluZ2lsbGEgY29udmFsbGlzLCBtYXNzYSBlc3QgdnVscHV0YXRlIHZlbGl0LCBpbiBibGFuZGl0IGF1Z3VlIGR1aSB2aXRhZSBlbGl0LiBEb25lYyBoZW5kcmVyaXQgY29tbW9kbyBhdWd1ZSwgaW4gbWF4aW11cyBvcmNpIHRlbXBvciBjb25ndWUuIE1hdXJpcyB1bHRyaWNpZXMgZXVpc21vZCBvcmNpLCBuZWMgdmVoaWN1bGEgcXVhbSB2ZWhpY3VsYSBhYy4gTnVuYyBkaWN0dW0gdG9ydG9yIGRvbG9yLCBuZWMgZWxlaWZlbmQgb3JjaSBsdWN0dXMgc2VkLjwvcD4gPGgzPkRvbmVjIHNjZWxlcmlzcXVlIGN1cnN1cyBleCB2YXJpdXMgZWZmaWNpdHVyPC9oMz4gPGg0Pk1vcmJpIGN1cnN1cyBwbGFjZXJhdCBtaTwvaDQ+IDxoNT5OdWxsYW0gbGFvcmVldCBhbnRlIHBsYWNlcmF0PC9oNT4gPGRpdiBkYXRhLWVtYmVkLWJ1dHRvbj0idGlkZV9tZWRpYSIgZGF0YS1lbnRpdHktZW1iZWQtZGlzcGxheT0idmlld19tb2RlOm1lZGlhLmVtYmVkZGVkIiBkYXRhLWVudGl0eS10eXBlPSJtZWRpYSIgZGF0YS1lbnRpdHktdXVpZD0iMTFkZWRlMTEtMTBjMC0xMTFlMS0xMTAwLTAwMDAwMDAwMDEyNCIgZGF0YS1sYW5nY29kZT0iZW4iIGNsYXNzPSJlbWJlZGRlZC1lbnRpdHkgZW1iZWRkZWQtZW50aXR5LS1tZWRpYSBlbWJlZGRlZC1lbnRpdHktLW1lZGlhLS1pbWFnZSI+PGFydGljbGUgY2xhc3M9Im1lZGlhIG1lZGlhLS10eXBlLWltYWdlIG1lZGlhLS12aWV3LW1vZGUtZW1iZWRkZWQiPjxkaXYgY2xhc3M9ImZpZWxkIGZpZWxkLS1uYW1lLWZpZWxkLW1lZGlhLWltYWdlIGZpZWxkLS10eXBlLWltYWdlIGZpZWxkLS1sYWJlbC1oaWRkZW4gZmllbGRfX2l0ZW0iPjxpbWcgc3JjPSJodHRwczovL3d3dy5kZXZlbG9wLmNvbnRlbnQudmljLmdvdi5hdS9zaXRlcy9kZWZhdWx0L2ZpbGVzLzIwMTktMTAvTWVsYm91cm5lJTIwdHJhbS5qcGciIHdpZHRoPSIxNDEzIiBoZWlnaHQ9Ijc4NSIgYWx0PSJEZW1vOiBNZWxib3VybmUgdHJhbSIgdGl0bGU9IkRlbW86IE1lbGJvdXJuZSB0cmFtIj48L2Rpdj48L2FydGljbGU+PC9kaXY+IDxwPkludGVnZXIgaW50ZXJkdW0gbmlzbCB1dCBuZXF1ZSBkaWN0dW0sIGV0IHNhZ2l0dGlzIG1ldHVzIGZldWdpYXQuIFNlZCBpbiBtYXR0aXMgbmVxdWUuIER1aXMgYXQgcmlzdXMgbm9uIGlwc3VtIHNlbXBlciBkYXBpYnVzLiBTZWQgZW5pbSBzYXBpZW4sIG1vbGVzdGllIHNlZCBjb21tb2RvIHZlbCwgbGFjaW5pYSB2aXRhZSByaXN1cy4gUHJvaW4gc2FnaXR0aXMgZGlhbSBuaXNpLCBzZWQgcmhvbmN1cyBkaWFtIHZhcml1cyBpZC4gU2VkIG1hbGVzdWFkYSBmZWxpcyB0b3J0b3IsIHNjZWxlcmlzcXVlIHByZXRpdW0gZWxpdCB0ZW1wb3Igbm9uLiBQZWxsZW50ZXNxdWUgdWx0cmljZXMgdm9sdXRwYXQgdGluY2lkdW50LiBGdXNjZSBxdWlzIHZpdmVycmEgdXJuYSwgcXVpcyBmaW5pYnVzIG51bGxhLjwvcD4gPGJsb2NrcXVvdGUgY2xhc3M9InF1b3RhdGlvbiI+PHA+TWF1cmlzIHRpbmNpZHVudCB0aW5jaWR1bnQgZmVsaXMgdmVsIHRlbXB1cy4gVmVzdGlidWx1bSByaG9uY3VzIGJsYW5kaXQganVzdG8gcXVpcyBmaW5pYnVzLiBQaGFzZWxsdXMgbGFjdXMgbGVjdHVzLCBzb2xsaWNpdHVkaW4gc2VkIHBvc3VlcmUgbm9uLCB1bHRyaWNpZXMgdXQgcXVhbS48L3A+IDxmb290ZXI+PGNpdGU+PHNwYW4gY2xhc3M9InF1b3RhdGlvbl9fYXV0aG9yIj5EdWlzIGxpZ3VsYSBsYWN1czwvc3Bhbj48YnI+IDxzcGFuIGNsYXNzPSJxdW90YXRpb25fX2F1dGhvci10aXRsZSI+UGhhc2VsbHVzIGVzdCB0dXJwaXMsIGVmZmljaXR1ciBuZWMgb2RpbyBpbXBlcmRpZXQ8L3NwYW4+PGJyPjwvY2l0ZT48L2Zvb3Rlcj48L2Jsb2NrcXVvdGU+XG5NYXVyaXMgdGluY2lkdW50IHRpbmNpZHVudCBmZWxpcyB2ZWwgdGVtcHVzXG5cbiAgICAgIDxkaXYgY2xhc3M9InJwbC1lbWJlZGRlZC12aWRlbyBycGwtbWFya3VwX19lbWJlZGRlZC12aWRlbyI+PGRpdiBjbGFzcz0icnBsLWVtYmVkZGVkLXZpZGVvLWlmcmFtZS1jb250YWluZXIiPjxpZnJhbWUgd2lkdGg9Ijg1NCIgaGVpZ2h0PSI0ODAiIHNyYz0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvYlNsbmZ5R1Rpc3M/YXV0b3BsYXk9MCZhbXA7c3RhcnQ9MCZhbXA7cmVsPTAiIGxhbmc9InVuZGVmaW5lZCIgYWxsb3dmdWxsc2NyZWVuPSJhbGxvd2Z1bGxzY3JlZW4iIGNsYXNzPSJycGwtZW1iZWRkZWQtdmlkZW8tZnJhbWUiPjwvaWZyYW1lPjwvZGl2PiA8IS0tLS0+IDxkaXYgY2xhc3M9InJwbC1lbWJlZC12aWRlb19fdHJhbnNjcmlwdCI+PC9kaXY+PC9kaXY+IDxwPlBoYXNlbGx1cyBpbiB2YXJpdXMgbGVvLiBTdXNwZW5kaXNzZSBwb3RlbnRpLiBEb25lYyBzY2VsZXJpc3F1ZSBjdXJzdXMgZXggdmFyaXVzIGVmZmljaXR1ci4gVml2YW11cyBwcmV0aXVtIG5pc2kgc2VkIGxpYmVybyBhY2N1bXNhbiBtYXR0aXMuIER1aXMgY29udmFsbGlzLCB2ZWxpdCBlZ2V0IHZhcml1cyB0ZW1wdXMsIG9yY2kgZXJhdCBhbGlxdWFtIHNlbSwgZWdldCBwb3J0YSBtYXVyaXMgbmlzbCBhdCBtYXVyaXMuPC9wPiA8ZmlndXJlIGNsYXNzPSJycGwtZG9jdW1lbnQtbGluayI+PGEgYXJpYS1sYWJlbD0iRGVtbyBTYW1wbGUgRG9jdW1lbnQgRmlsZSB0eXBlOiBkb2N4LiBTaXplOiA3LjUzIEtCIiBocmVmPSIvc2l0ZXMvZGVmYXVsdC9maWxlcy8yMDE5LTEwL3NhbXBsZS5kb2N4IiBkb3dubG9hZD0iIiBjbGFzcz0icnBsLWRvY3VtZW50LWxpbmtfX2xpbmsiPjxzdmcgYXJpYS1oaWRkZW49InRydWUiIGNsYXNzPSJycGwtZG9jdW1lbnQtbGlua19faWNvbiBycGwtaWNvbiBycGwtaWNvbi0tZG9jeCBycGwtaWNvbi0tY29sb3JfcHJpbWFyeSIgc3R5bGU9IndpZHRoOjMwcHg7aGVpZ2h0OjMwcHg7Ij48dXNlIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bGluazpocmVmPSIjcnBsX2ljb25fZG9jeCIgaHJlZj0iI3JwbF9pY29uX2RvY3giPjwvdXNlPjwvc3ZnPiA8ZGl2IGNsYXNzPSJycGwtZG9jdW1lbnQtbGlua19faW5mbyI+PHNwYW4gY2xhc3M9InJwbC1kb2N1bWVudC1saW5rX190aXRsZSI+RGVtbyBTYW1wbGUgRG9jdW1lbnQ8L3NwYW4+IDxkaXYgY2xhc3M9InJwbC1kb2N1bWVudC1saW5rX19tZXRhIj48c3BhbiBjbGFzcz0icnBsLWRvY3VtZW50LWxpbmtfX3R5cGUiPmRvY3g8L3NwYW4+IDxzcGFuIGNsYXNzPSJycGwtZG9jdW1lbnQtbGlua19fc2l6ZSBycGwtZG9jdW1lbnQtbGlua19fc2l6ZS0tc2VwZXJhdG9yIj43LjUzIEtCPC9zcGFuPjwvZGl2PjwvZGl2PjwvYT4gPCEtLS0tPjwvZmlndXJlPjwvZGl2Pic=",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the related links component should exist",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the related links title should be \"Related links\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "url",
+                      "target"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Related Link external  text",
+                      "https://emergency.vic.gov.au/respond/#",
+                      "external"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Department of Premier and  Cabinet",
+                      "https://www.vic.gov.au/department-premier-and-cabinet",
+                      "external"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the related links should contain the following links:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the whats next component should exist",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the whats next title should be \"What's next?\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "title",
+                      "url",
+                      "target"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "State Government of  Victoria",
+                      "https://www.vic.gov.au",
+                      "external"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Department of Premier and  Cabinet",
+                      "https://www.vic.gov.au/department-premier-and-cabinet",
+                      "external"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the whats next links should be:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the share this component should exist",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the share this component should have the title \"Share this\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "network"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Twitter"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Facebook"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "LinkedIn"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the share this component should have the following social links:",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "the share this links should read \"open in a new window\" to screen readers",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

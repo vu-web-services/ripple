@@ -20,7 +20,7 @@ const tideConfig = {
   },
 
   modules: [
-    'event'
+    'demo-publications'
   ]
 }
 
