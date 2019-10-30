@@ -21,7 +21,7 @@ module.exports = {
       },
       {
         type: 'add',
-        files: ['_package.json', '_.env'],
+        files: ['_package.json', '_.env', '.gitignore'],
         transform: true
       },
       {
