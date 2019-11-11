@@ -1,6 +1,6 @@
 {
   "name": "@dpc-sdp/create-ripple-app",
-  "version": "1.5.0-beta.5",
+  "version": "1.5.0-beta.7",
   "description": "Create a ripple app in seconds!",
   "bin": {
     "create-ripple-app": "cli.js"
@@ -21,5 +21,5 @@
     "validate-npm-package-name": "^3.0.0"
   },
   "license": "MIT",
-  "gitHead": "b10a9ed3b1f90db0bb47e51e0905802a3c90b953"
+  "gitHead": "7d055adac20a6f359715ca67514506b29b40caf2"
 }
