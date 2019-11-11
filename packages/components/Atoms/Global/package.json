@@ -1,6 +1,6 @@
 {
   "name": "@dpc-sdp/ripple-global",
-  "version": "1.5.0-beta.5",
+  "version": "1.5.0-beta.6",
   "description": "The core styles and utilities used by all ripple components. Includes sets of colours, fonts, breakpoints.",
   "license": "Apache-2.0",
   "main": "./index.js",
@@ -18,5 +18,5 @@
   "peerDependencies": {
     "vue": "^2.5.16"
   },
-  "gitHead": "b10a9ed3b1f90db0bb47e51e0905802a3c90b953"
+  "gitHead": "874527597152ec5600689bb523c4023c74bc4974"
 }
