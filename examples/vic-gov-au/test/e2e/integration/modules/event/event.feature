@@ -3,7 +3,7 @@ Feature: Event page
 
   Scenario: BE - add event
     Given I have logged into the backend
-    And in the backend there is a node at "/2-be-event-1" with "modules/event/2-BE-event-1" data
+    And in the backend there is a node at "/2-be-event-1" with "modules/event/2-be-event-1" data
 
   Scenario: Event Page loads correctly
     When I visit the page "/2-be-event-1"

@@ -4,7 +4,7 @@ Feature: Profile page
   
   Scenario: BE - Create profile page
     Given I have logged into the backend
-    And in the backend there is a node at "/profile-4-be-profile-1" with "modules/profile/4-BE-Profile-1" data
+    And in the backend there is a node at "/profile-4-be-profile-1" with "modules/profile/4-be-profile-1" data
 
   Scenario: FE - Profile page
     When I visit the page "/profile-4-be-profile-1"

@@ -5,8 +5,8 @@ Feature: Global Notifications (Alert)
   Scenario: BE - Add alerts
     Given I have logged into the backend
     And in the backend there are no "alert" nodes
-    And in the backend there is a node at "/1-BE-Alert-1" with "modules/alert/1-BE-Alert-1" data
-    And in the backend there is a node at "/1-BE-Alert-2" with "modules/alert/1-BE-Alert-2" data
+    And in the backend there is a node at "/1-be-alert-1" with "modules/alert/1-be-alert-1" data
+    And in the backend there is a node at "/1-be-alert-2" with "modules/alert/1-be-alert-2" data
 
   Scenario: Warm the cache
     When I visit the page "/"
