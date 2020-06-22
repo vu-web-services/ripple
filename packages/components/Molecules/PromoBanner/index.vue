@@ -1,8 +1,8 @@
 <template>
   <rpl-container class="rpl-promo-banner" :class="baseBackgroundColor">
     <rpl-row class="rpl-promo-banner__row">
-      <rpl-col cols="full" :colsBp="{s: 4, m: 3}">
-        <img v-if="image" class="rpl-promo-banner__image" ref="image" :src="image.src" :alt="image.alt" />
+      <rpl-col v-if="image" cols="full" :colsBp="{s: 4, m: 3}">
+        <img class="rpl-promo-banner__image" ref="image" :src="image.src" :alt="image.alt" />
       </rpl-col>
       <rpl-col cols="full" :colsBp="{s: 8, m: 6}">
         <h2 class="rpl-promo-banner__title" v-if="title">{{ title }}</h2>
