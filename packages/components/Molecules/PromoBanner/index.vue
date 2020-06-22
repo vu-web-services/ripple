@@ -6,7 +6,7 @@
       </rpl-col>
       <rpl-col cols="full" :colsBp="{s: 8, m: 6}">
         <h2 class="rpl-promo-banner__title" v-if="title">{{ title }}</h2>
-        <p>{{ text }}</p>
+        <p v-if="text">{{ text }}</p>
         <ul v-if="links && links.length" class="rpl-promo-banner__links">
           <li v-for="link in links" :key="link.text" class="rpl-promo-banner__link">
             <rpl-link :href="link.url" :target="link.target">{{ link.text }}</rpl-link>
