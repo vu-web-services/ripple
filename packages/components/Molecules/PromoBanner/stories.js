@@ -16,7 +16,7 @@ storiesOf('Molecules/Promo Banner', module)
       :backgroundColor="backgroundColor"
       :image="image"
       :title="title"
-      :text="summary"
+      :text="text"
       :links="links"
     />`,
     props: {
@@ -32,7 +32,7 @@ storiesOf('Molecules/Promo Banner', module)
       title: {
         default: text('Title', 'This heading could wrap over two lines')
       },
-      summary: {
+      text: {
         default: text('Text', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua laboris nisi ut aliquip ex ea commodo consequat.')
       },
       links: {
