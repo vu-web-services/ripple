@@ -18,7 +18,7 @@ npm install @dpc-sdp/ripple-promo-banner --save
 ```shell
 @dpc-sdp/ripple-promo-banner
 ├── @dpc-sdp/ripple-global
-├── @dpc-sdp/ripple-icon
+├── @dpc-sdp/ripple-grid
 ├── @dpc-sdp/ripple-link
 └── fontfaceobserver
 ```
@@ -35,7 +35,7 @@ import RplPromoBanner from '@dpc-sdp/ripple-promo-banner'
 
 ## Usage and Tests
 
-See [Storybook/Molecules/Card/Card Navigation/Default](https://ripple.sdp.vic.gov.au/?path=/story/molecules-promo-banner--default).
+See [Storybook/Molecules/Promo Banner/Default](https://ripple.sdp.vic.gov.au/?path=/story/molecules-promo-banner--default).
 
 --------------------------------------------------------------------------------
 
