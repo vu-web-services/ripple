@@ -1,0 +1,18 @@
+{
+  "name": "@dpc-sdp/ripple-promo-banner",
+  "version": "1.10.0",
+  "description": "Callout container for promotional content.",
+  "license": "Apache-2.0",
+  "main": "index.vue",
+  "homepage": "https://ripple.sdp.vic.gov.au",
+  "repository": "https://github.com/dpc-sdp/ripple/tree/master/packages/components/Molecules/PromoBanner",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@dpc-sdp/ripple-global": "1.10.0",
+    "@dpc-sdp/ripple-icon": "1.10.0",
+    "@dpc-sdp/ripple-link": "1.10.0",
+    "fontfaceobserver": "^2.0.13"
+  }
+}
