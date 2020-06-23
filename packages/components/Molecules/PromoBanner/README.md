@@ -1,5 +1,5 @@
 <!-- GENERATED_DOCS -->
-# @dpc-sdp/ripple-card
+# @dpc-sdp/ripple-promo-banner
 
 > Callout container for promotional content.
 
